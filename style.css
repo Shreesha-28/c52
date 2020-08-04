@@ -1,0 +1,65 @@
+h1{
+    color:blue;
+    margin-left:30px
+}
+body{
+    background-color: #202020;
+    background-image: url("background.webp");
+    background-size: 100% 200%;
+    
+}
+
+
+.header{
+    background-color:rgb(255, 187, 0);
+    display:flex;
+    justify-content:space-between ;
+    
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    outline-color:  salmon;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+    color: salmon;
+    font-style: oblique;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.menu{
+    margin-right: 30px;
+
+}
+.menu a{
+    margin-left: 20px;
+}
+a:link{
+    color:white
+}
+a:visited{
+    color: white;
+}
+.item{
+    position: relative;
+    
+}
+.item p{
+    position: absolute;
+    top:50%;
+    bottom:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity :1
+}
+.item:hover img{
+    opacity: 0.33;
+}
